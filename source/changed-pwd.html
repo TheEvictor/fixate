@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Changed Password</title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+     
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--<link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
+  </head>
+
+<body>
+  <div id="wrapper">
+
+    <header id="header">
+      <nav class="main">
+        <ul>
+          <li class="menu">
+          <a class="fa-bars" href="#menu">Menu</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1><a href="homepage.html">Fixate</a></h1>
+    </header>
+
+    <!-- Menu -->
+    <section id="menu">
+
+      <!-- Links -->
+       <section>
+        <ul class="links">
+          <li>
+            <a href="activities.html">
+              <h3>Activities</h3>
+              <p>Add/View your activities</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="graphs.html">
+              <h3>Graphs</h3>
+              <p>Check your progress</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="settings.html">
+              <h3>Settings</h3>
+              <p>Change your preferences</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="index.html">
+              <h3>Logout</h3>
+              <p>Goodbye</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Actions -->
+      <section>
+        <ul class="actions vertical">
+          <li>
+          <a href="#" class="button big fit">Log In</a>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!-- ACTUAL PAGE STARTS HERE -->
+    <section id="sidebar">
+      
+      <section id="intro">
+
+        <!-- Title -->
+        <header>
+          <h2>Changed Password</h2>
+          <p>Your password was successfully updated!</p>
+          <p><a href='logout.php'>logout</a></p>
+        </header>
+        <br>
+        
+      </section>
+    </section>
+  </div>
+
+  <!-- All javascript files go here -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/introHCI.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/skel.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/rangeslider.min.js"></script>
+  <script>
+    // Initialize a new plugin instance for all
+    // e.g. $('input[type="range"]') elements.
+    $('input[type="range"]').rangeslider();
+
+    // Destroy all plugin instances created from the
+    // e.g. $('input[type="range"]') elements.
+    $('input[type="range"]').rangeslider('destroy');
+
+    // Update all rangeslider instances for all
+    // e.g. $('input[type="range"]') elements.
+    // Usefull if you changed some attributes e.g. `min` or `max` etc.
+    $('input[type="range"]').rangeslider('update', true);
+  </script>
+
+</body>
+</html>
